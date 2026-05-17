@@ -16,6 +16,7 @@ public class CorsConfig {
                         .allowedOrigins("https://frontend-hotel-tau.vercel.app/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
+                        .allowCredentials(true);
             }
         };
     }
